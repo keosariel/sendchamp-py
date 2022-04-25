@@ -1,0 +1,34 @@
+services
+    SMS 
+        URL: https://api.sendchamp.com/api/v1/sms/send
+        functions
+            sending SMS
+            create_sender_Id
+            sms_delivery_report
+            bulk_sms_delivery_report
+
+
+
+    voice
+        URL: https://api.sendchamp.com/api/v1/voice/send
+        functions
+            text_to_speech
+            audiofile_to_voice
+            delivery_report
+    customer
+    whatsapp
+        URL: https://api.sendchamp.com/api/v1/whatsapp/message/send
+        functions  
+            send_otp_notif
+            two_way messaging
+    verification
+        URL: https://api.sendchamp.com/api/v1/whatsapp/message/send
+        functions   
+            Send OTP
+            Confirm OTP
+    email
+        URL: https://api.sendchamp.com/api/v1/email/send
+        functions
+            send email
+
+    
