@@ -1,8 +1,6 @@
 from xml.etree.ElementTree import PI
 from sendchamp import Sendchamp
 from pprint import pprint
-PUBLIC_KEY  = "sendchamp_live_$2y$10$ZloNRp5i4i4k471MBJLPQeLWy2FDOeBLrLBVu1onZcTF3tBbz3uWC"
-PRIVATE_KEY = "sendchamp_pk_live_$2y$10$1MztwmEE9WiE1lmjl5WHeeiJVi9m2ZY1fTU.BF7hShTFmqazsJW.a" 
 
 sendchamp = Sendchamp(public_key=PUBLIC_KEY)
 
@@ -18,8 +16,8 @@ sendchamp = Sendchamp(public_key=PUBLIC_KEY)
 # )
 
 # data, error = sendchamp.sms.create_sender_id(
-#     name="INSTAGRAM",
-#     sample= "Login to your instagram account now. https://ticketmaster-us.herokuapp.com/",
+#     name="SMS",
+#     sample= "...",
 #     use_case="marketing"
 # )
 
@@ -110,7 +108,7 @@ sendchamp = Sendchamp(public_key=PUBLIC_KEY)
 
 
 
-pprint(error)
-pprint(data)
+# pprint(error)
+# pprint(data)
 
 
